@@ -457,12 +457,12 @@ img {
 }
 
 .clients-list-link:hover,
-.clients-list-link:active {
+.clients-list-link:focus {
   border: 1px solid var(--accent-color);
 }
 
 .clients-list-link:hover .clients-list-logo,
-.clients-list-link:active .clients-list-logo {
+.clients-list-link:focus .clients-list-logo {
   fill: var(--accent-color);
 }
 
@@ -498,7 +498,11 @@ img {
 .footer-list-item {
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc((100% - 3 * 60px) / 3);
+  flex-basis: calc((100% - 4 * 30px) / 4);
+}
+
+.footer-list-item.join-form {
+  flex-grow: 2;
 }
 
 .footer .logo {
