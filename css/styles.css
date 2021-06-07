@@ -209,8 +209,8 @@ img {
 }
 
 .section.hero {
-  max-width: 1600px;
-  height: 600px;
+  max-width: 100%;
+  height: auto;
   background-color: #c4c4c4;
   background-image: linear-gradient(
       to right,
